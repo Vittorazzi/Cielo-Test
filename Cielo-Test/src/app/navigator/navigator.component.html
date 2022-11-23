@@ -1,0 +1,22 @@
+<div class="nav-bar">
+    <div class="nome-site">
+        <h2>Cielo</h2>
+    </div>
+    <div class="menu-login">
+        <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+        <mat-menu #menu="matMenu" >
+            <div>
+                <button mat-menu-item>
+                    <mat-icon>perm_identity</mat-icon>
+                    Login
+                </button>
+            </div>
+            <div>
+                <button mat-menu-item>
+                    <mat-icon>keyboard_tab</mat-icon>
+                    Cadastrar
+                </button>
+            </div>
+        </mat-menu>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="news-container" flex>
+    <div style="display: flex;">
+        <h1><a [href]="linkNoticia"> {{tituloNoticia}} </a></h1>
+        <div>
+            <app-arrow-button (changeStatus)="clickExpandir()"></app-arrow-button>
+            <!-- <div (click)="noticiaExpandida = !noticiaExpandida" class="botao-expandir"></div> -->
+        </div>
+    </div>
+    <p> {{conteudoNoticia}} </p>
+    <p [hidden]="!noticiaExpandida">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+</div>

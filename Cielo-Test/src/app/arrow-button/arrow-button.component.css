@@ -1,0 +1,16 @@
+.botao-expandir {
+    box-sizing: border-box;
+    height: 15px;
+    width: 15px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 0px 4px 4px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    cursor: pointer;
+  }
+  
+  .botao-expandir:hover {
+    border-bottom-width: 8px;
+    border-right-width: 8px;
+  }

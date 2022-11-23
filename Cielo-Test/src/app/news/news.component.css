@@ -1,0 +1,8 @@
+.news-container {
+    border-radius: 15px;
+    background-color: rgb(245, 254, 255);
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    line-break: anywhere;
+}

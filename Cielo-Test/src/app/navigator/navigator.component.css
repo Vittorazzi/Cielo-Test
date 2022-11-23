@@ -1,0 +1,22 @@
+.nav-bar {
+    display: flex;
+    background-color: rgb(88, 166, 255);
+}
+
+.nome-site {
+    display: flex;
+    background-color: rgb(88, 166, 255);
+    width: 50%;
+    text-align: left;
+}
+
+.menu-login {
+    width: 50%;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    margin: 0px 10px;
+}
